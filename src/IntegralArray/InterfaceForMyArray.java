@@ -1,3 +1,5 @@
+package IntegralArray;
+
 /**
  * Created by fylhtqww on 9/10/2017.
  */

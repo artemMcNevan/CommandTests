@@ -1,3 +1,5 @@
+package IntegralArray;
+
 import java.util.Arrays;
 
 public class IntegralArray implements InterfaceForMyArray {
@@ -76,7 +78,7 @@ public class IntegralArray implements InterfaceForMyArray {
 
     @Override
     public String toString() {
-        return "IntegralArray{" +
+        return "IntegralArray.IntegralArray{" +
                 " Элемены = " + Arrays.toString(elementsData) +
                 ", длина = " + length +
                 '}';

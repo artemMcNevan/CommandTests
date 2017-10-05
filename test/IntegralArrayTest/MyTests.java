@@ -1,5 +1,6 @@
-import static org.junit.Assert.*;
+package IntegralArrayTest;
 
+import IntegralArray.IntegralArray;
 import org.junit.Assert;
 import org.junit.Test;
 
