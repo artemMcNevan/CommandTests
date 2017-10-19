@@ -2,8 +2,16 @@ package test3;
 
 import java.util.List;
 
-public class ArrayListLinkedListInsertTests {
+public class InsertOperation {
     private static int LIST_SIZE = 10000;
+
+    private List list;
+
+    public InsertOperation(List list) throws Exception {
+        this.list = list;
+        insertItems(list);
+        deleteItems(list);
+    }
 
     public long insertItems(List<Integer> list) {
         long startTime = System.nanoTime();
