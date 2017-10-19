@@ -1,6 +1,5 @@
-import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
+import test1.SortedOneDimensionalArray;
 
 public class TestSortedOneDimensionalArray {
     private SortedOneDimensionalArray sortedOneDimensionalArray = new SortedOneDimensionalArray();
